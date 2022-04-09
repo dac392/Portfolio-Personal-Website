@@ -7,6 +7,9 @@ body {
   background-color: #daded4;
   font-family: "Rubik", sans-serif;
 }
+header {
+  margin-bottom: 2em;
+}
 
 a {
   text-decoration: none;
@@ -43,8 +46,34 @@ li {
 }
 
 section {
-  margin: 5em;
-  height: 30em;
-  background-color: white;
-  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  float: right;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 40vh;
+  width: 80vw;
+  margin: auto;
+
+  color: #3c403d;
+}
+
+div {
+  width: 30vw;
+}
+h1 {
+  margin: 0;
+  color: #39603d;
+  font-size: 5em;
+}
+
+.resume {
+  border: 2px solid #39603d;
+  padding: 10px;
+  width: 6em;
+  color: #39603d;
+  font-size: 1.3em;
+  text-align: center;
 }
