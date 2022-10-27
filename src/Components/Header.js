@@ -22,7 +22,7 @@ const Header = ()=>{
                         >About Me</NavLink></li>
                     <li><address><a href="mailto:dac392@gmail.com"><MdEmail /> dac392@rutgers.edu</a></address></li>
                     <li><a href="https://github.com/dac392" target="_blank" rel="noreferrer"><FaGithubSquare /> GitHub</a></li>
-                    <li><a href="https://www.NavLinkedin.com/feed/" target="_blank" rel="noreferrer"><FaLinkedin /> NavLinkedin</a></li>
+                    <li><a href="https://www.linkedin.com/in/dac392/" target="_blank" rel="noreferrer"><FaLinkedin /> NavLinkedin</a></li>
                 </ul>
             </nav>
         </header>
