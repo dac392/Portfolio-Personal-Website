@@ -91,10 +91,10 @@ header li {
 
 
 /* 
-    HOME 
+    MAIN CONTENT
 */
 
-.home{
+.main-content{
   display: flex;
   flex-direction: column;
   padding: 2em;
@@ -105,11 +105,11 @@ header li {
   flex-grow: 2;
 }
 
-.home *:not(h1){
+.main-content *:not(h1){
   margin-bottom: 1em;
 }
 
-.home h1{
+.main-content h1{
   /* font-size: 3em; */
   margin-bottom: 0.2em;
 }
@@ -123,7 +123,7 @@ header li {
   font-size: 1.2em;
 }
 
-.home img{
+.main-content img{
   border-radius: 50%;
 }
 
@@ -211,7 +211,7 @@ header li {
     transform: translate(0, -11px) rotate(45deg);
   }
 
-  .home{
+  .main-content{
     /* align-items: center; */
     justify-content: center;
     /* padding-left: 3em; */
