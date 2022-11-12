@@ -110,9 +110,12 @@ header li {
 }
 
 .main-content h1{
-  /* font-size: 3em; */
   margin-bottom: 0.2em;
 }
+
+/*
+    HOME THINGS
+*/
 
 .p-title{
   color: #93FF96;
