@@ -6,6 +6,7 @@ import Resume from './Components/Resume';
 import Education from "./Components/Education";
 import Projects from './Components/Projects';
 import Courses from './Components/Courses';
+import About from './Components/About';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="projects" element={ <Projects />} />
           <Route path="courses" element={<Courses />} /> 
         </Route>
-        <Route path="about" element={<Home/>} />
+        <Route path="about" element={<About />} />
       </Routes>
       {/* <Footer /> */}
     </div>

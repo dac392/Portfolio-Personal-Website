@@ -288,6 +288,48 @@ header li {
 }
 
 /*
+    ABOUT THINGS  
+*/
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1em;
+  height: 100%;
+  width: 80%;
+  font-size: 2em;
+  margin-left: 9em;
+  color: white;
+}
+
+img{
+  height: 400px;
+  border-radius: 50%;
+}
+
+.btn{
+  background-color: #333;
+  border: 2px solid #93FF96;
+  color: #93FF96;
+  padding: 1em;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  margin-right: 1em;
+}
+
+.selected{
+  background-color: #93FF96;
+  color: #000;
+}
+
+.btn:hover{
+  background-color: #93FF96;
+  color: #000;
+}
+
+/*
     MEDIA QUERRIES
 */
 
@@ -347,6 +389,12 @@ header li {
     width: 100vw;
   }
 
+  .about{
 
+    padding: 0;
+    margin: 0;
+    margin-top: 3em;
+    width: 100vw;
+  }
 }
 
