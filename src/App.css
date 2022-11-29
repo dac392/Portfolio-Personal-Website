@@ -183,6 +183,19 @@ header li {
   transition: all ease-in-out 0.3s;
 }
 
+#print{
+  color: white;
+  background-color: #000;
+  border-color: #000;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+#print:hover{
+  background-color: #333;
+  color: black;
+}
+
 #education{
   border-color: #93FF96;
   color: #93FF96;
@@ -190,7 +203,7 @@ header li {
 
 #education:hover{
   background-color: #93FF96;
-  color: #333;
+  color: black;
 }
 #education::before{
   display: none;
@@ -202,7 +215,7 @@ header li {
 }
 #projects:hover{
   background-color: #ca054d;
-  color: #333;
+  color: black;
 }
 #projects::before{
   display: none;
@@ -218,7 +231,7 @@ header li {
 
 #courses:hover{
   background-color: #63d2ff;
-  color: #333;
+  color: black;
 }
 
 .module{

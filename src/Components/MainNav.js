@@ -16,7 +16,7 @@ const MainNav = ({status, setVisible})=>{
                 to="/resume" activeClassName="active"
                 className={(navData) => (navData.isActive? 'active':'')}
                 onClick={hanleClick}
-                >Resume</NavLink></li>
+                >Experience</NavLink></li>
             <li><NavLink 
                 to="/about"
                 className={(navData) => (navData.isActive? 'active':'')}
@@ -24,7 +24,7 @@ const MainNav = ({status, setVisible})=>{
                 >About Me</NavLink></li>
             <li><address><a href="mailto:dac392@gmail.com"><MdEmail /> dac392@rutgers.edu</a></address></li>
             <li><a href="https://github.com/dac392" target="_blank" rel="noreferrer"><FaGithubSquare /> GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/dac392/" target="_blank" rel="noreferrer"><FaLinkedin /> NavLinkedin</a></li>
+            <li><a href="https://www.linkedin.com/in/dac392/" target="_blank" rel="noreferrer"><FaLinkedin /> Linkedin</a></li>
         </ul>
     );
 }
