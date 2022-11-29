@@ -8,7 +8,7 @@ const MainNav = ({status, setVisible})=>{
     return (
         <ul id="primary-navigation" data-visible={status}>
             <li><NavLink 
-                exact to="/welcome"
+                exact to="/"
                 className={(navData) => (navData.isActive? 'active':'')}
                 onClick={hanleClick}
                 ><strong>Diego</strong></NavLink></li>

@@ -1,12 +1,13 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 
 const SubNav = ()=>{
     return (
         <nav className="subnav">
             <ul>
-                <li><a href="#education" target="_blank">Education</a></li>
-                <li><a href="#projects" target="_blank">Projects</a></li>
-                <li><a href="#courses" target="_blank">Courses</a></li>
+                <li><NavLink to="/resume/education" id="education">Education</NavLink></li>
+                <li><NavLink to="/resume/projects" id="projects">Projects</NavLink></li>
+                <li><NavLink to="/resume/courses" id="courses">Courses</NavLink></li>
             </ul>
         </nav>
     );

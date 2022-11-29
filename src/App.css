@@ -164,6 +164,112 @@ header li {
   font-size: 2em;
 }
 
+.subnav ul{
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.subnav a{
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 1em;
+  padding: 0.25em 0.5em;
+  transition: all ease-in-out 0.3s;
+}
+
+#education{
+  border-color: #93FF96;
+  color: #93FF96;
+}
+
+#education:hover{
+  background-color: #93FF96;
+  color: #333;
+}
+#education::before{
+  display: none;
+}
+
+#projects{
+  border-color: #ca054d;
+  color: #ca054d;
+}
+#projects:hover{
+  background-color: #ca054d;
+  color: #333;
+}
+#projects::before{
+  display: none;
+}
+
+#courses{
+  border-color: #63d2ff;
+  color: #63d2ff;
+}
+#courses::before{
+  display: none;
+}
+
+#courses:hover{
+  background-color: #63d2ff;
+  color: #333;
+}
+
+.module{
+  margin-top: 1em;
+}
+
+/* article{
+  border-left: 5px solid white;
+} */
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: -3px;
+}
+
+.module section{
+  margin: 1em;
+  padding: 1em;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+  min-width: 300px;
+  max-width: 750px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  border-radius: 5px; /* 5px rounded corners */
+  position: relative;
+  overflow: visible;
+}
+
+.module section::before{
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  left: -1.37em;
+  top: 3em;
+  background-color: #93FF96;
+  border: 5px solid black;
+  z-index: 1;
+}
+
 /*
     MEDIA QUERRIES
 */
@@ -223,5 +329,7 @@ header li {
     padding: min(20vh, 5rem) 2em 2em 4em;
     font-size: 1.5rem;
   }
+
+
 }
 
