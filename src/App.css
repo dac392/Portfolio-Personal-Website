@@ -26,16 +26,18 @@ body{
 /* 
     HEADER THINGS
 */
+header{
+  position: relative;
+}
+
+
 
 #primary-navigation{
+  position: fixed;
   padding: 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   background: hsl(0 0% 0% / 0.85);
   height: 100vh;
   min-width: 18rem;
-  
 }
 
 @supports (backdrop-filter: blur(1rem)){
@@ -103,6 +105,7 @@ header li {
   color: white;
   font-size: 1.8rem;
   flex-grow: 2;
+  margin-left: 10em;
 }
 
 .main-content *:not(h1){
@@ -162,6 +165,7 @@ header li {
   background-color: #333;
   color: white;
   font-size: 2em;
+  margin-left: 10em;
 }
 
 .subnav ul{
@@ -274,6 +278,7 @@ header li {
     MEDIA QUERRIES
 */
 
+
 @media (max-width: 850px){
 
   #primary-navigation{
@@ -283,7 +288,6 @@ header li {
     z-index: 999;
     transform: translateX(-100%);
     transition: transform 0.35s ease-in-out;
-    /* align-items: flex-end; */
   }
 
   #primary-navigation[data-visible="true"]{
@@ -321,13 +325,13 @@ header li {
   }
 
   .main-content{
-    /* align-items: center; */
-    justify-content: center;
-    /* padding-left: 3em; */
-    width: 100%;
-    height: fit-content;
-    padding: min(20vh, 5rem) 2em 2em 4em;
-    font-size: 1.5rem;
+    margin-left: 0.5em;
+    width: 100vw;
+  }
+
+  .resume{
+    margin-left: 0.5em;
+    width: 100vw;
   }
 
 
