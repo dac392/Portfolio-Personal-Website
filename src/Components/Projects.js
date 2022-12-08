@@ -9,6 +9,7 @@ const Projects = ()=>{
                     <h3>BuyMe</h3>
                     <p>A data base management system used for maintaining an auction website akin to ebay.</p>
                     <p>Built in Java and makes use of a MySQL db and a jsp front end to function.</p>
+                    <a href="https://github.com/dac392/BuyMe-DBMS-Java" target="_blank" rel="noreferrer">View repository</a>
                 </section>
                 <section>
                     <p><small>Sep 14, 2022</small></p>

@@ -309,6 +309,8 @@ img{
 }
 
 .btn{
+  min-width: 200px;
+  font-size: 1.25rem;
   background-color: #333;
   border: 2px solid #93FF96;
   color: #93FF96;
@@ -327,6 +329,27 @@ img{
 .btn:hover{
   background-color: #93FF96;
   color: #000;
+}
+
+/*
+  SUMMARY
+*/
+.summary{
+  padding: 2em;
+}
+
+.summary .container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.summary p{
+  margin-bottom: 1em;
+}
+
+.summary li{
+  margin-left: 2em;
 }
 
 /*

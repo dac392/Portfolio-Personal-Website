@@ -22,11 +22,12 @@ const About = ()=>{
             <img src={require("../Images/personal-pic.JPG")} alt="Diego with a cone on his head" /> :
             <img src={require("../Images/professional-pic.jpg")} alt="Diego looking semi professional" />
         }
-        <h1>Diego</h1>
-        <p>the</p>
+        <h1>I am Diego</h1>
+        <p>the...</p>
+        <br/>
         <div className="inline">
             <button onClick={toggleTrue} className={(personal)? "btn selected":"btn"}>Person</button>
-            <button onClick={toggleFalse} className={(!personal)? "btn selected":"btn"}>Engineer</button>
+            <button onClick={toggleFalse} className={(!personal)? "btn selected":"btn"}>Developer</button>
         </div>
         {
             (personal)?
